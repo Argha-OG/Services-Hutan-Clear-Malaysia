@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Menu, X, Phone, TreePine } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
+import logo from '../../assets/shcm.png';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -16,7 +17,7 @@ export default function Navbar() {
     }, []);
 
     const navLinks = [
-        { name: 'Home', href: '#home' },
+        { name: 'Home', href: '#' },
         { name: 'Services', href: '#services' },
         { name: 'Gallery', href: '#gallery' },
         { name: 'Reviews', href: '#reviews' },
@@ -33,10 +34,10 @@ export default function Navbar() {
             <div className="container mx-auto px-6 flex items-center justify-between">
                 <a href="#" className="flex items-center gap-2 group">
                     <div className="w-10 h-10 bg-primary/20 backdrop-blur-md rounded-lg flex items-center justify-center border border-primary/30 group-hover:scale-105 transition-transform">
-                        <TreePine className="text-primary w-6 h-6" />
+                        <img src={logo} alt="" />
                     </div>
                     <div className="flex flex-col">
-                        <span className="text-xl font-bold text-white tracking-tight">Hutan Services</span>
+                        <span className="text-xl font-bold text-white tracking-tight">Forest Clearing Services</span>
                         <span className="text-xs text-gray-300 uppercase tracking-widest">Malaysia</span>
                     </div>
                 </a>
