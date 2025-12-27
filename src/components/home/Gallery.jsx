@@ -2,24 +2,26 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X } from 'lucide-react';
 
+import img1 from '../../assets/img1.jpeg';
+import img2 from '../../assets/img2.jpeg';
+import img3 from '../../assets/img3.jpeg';
+import img4 from '../../assets/img4.jpeg';
+import img5 from '../../assets/img5.jpeg';
+import img6 from '../../assets/img6.jpeg';
+import img7 from '../../assets/img7.jpeg';
+import img8 from '../../assets/img8.jpeg';
+import img9 from '../../assets/img9.jpeg';
+
 const galleryImages = [
-    // 1. Heavy Machinery / Land Clearing (Replacing the old excavator)
-    "https://t4.ftcdn.net/jpg/03/52/73/59/360_F_352735994_4FpchPEOdipty9TvI4WWjjI1xgJdB5m6.jpg?auto=compress&cs=tinysrgb&w=800", 
-    
-    // 2. Professional Arborist Climbing (Shows the "service" in action)
-    "https://lawlegalhub.com/wp-content/uploads/2024/04/Cutting-Trees.webp?auto=compress&cs=tinysrgb&w=800", 
-    
-    // 3. Tree Trimming / Bucket Work (Professional maintenance)
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRm-IsRG6l-8F0swqMrYobUW8hGQSN6sLD7GA&s?auto=compress&cs=tinysrgb&w=800", 
-    
-    // 4. Chainsaw Detail (Action shot of tree cutting)
-    "https://i0.wp.com/www.malaysiaworldnews.com/wp-content/uploads/2024/05/FB_IMG_1715635597652.jpg?fit=960%2C642&ssl=1?auto=compress&cs=tinysrgb&w=800", 
-    
-    // 5. Wood & Log Management (The result of removal/logging)
-    "https://treecutter.my/wp-content/uploads/2023/06/dsc4659.jpg?s=612x612&w=0&k=20&c=tWWpff8RBPVMiEenMooVf4yfFP9smdPfBQr-82dwZis=?auto=compress&cs=tinysrgb&w=800", 
-    
-    // 6. Residential Tree Care (Focus on a clean garden/yard service)
-    "https://cdn-kjbab.nitrocdn.com/xDiGSwyqWOsYDfdqxaQvLSKEqdvOPGZS/assets/images/optimized/rev-d142cbd/treecutting.my/wp-content/uploads/2023/10/IMG-20230326-WA0032.jpg?auto=compress&cs=tinysrgb&w=800"
+    img1,
+    img2,
+    img3,
+    img4,
+    img5,
+    img6,
+    img7,
+    img8,
+    img9
 ];
 
 export default function Gallery() {

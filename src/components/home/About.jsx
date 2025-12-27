@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { CheckCircle } from 'lucide-react';
+import AboutusPhoto from './../../assets/aboutus.jpeg';
 
 export default function About() {
     return (
@@ -16,8 +17,7 @@ export default function About() {
                     >
                         <div className="aspect-square rounded-3xl overflow-hidden relative z-10">
                             <img
-                                src="https://cktreecare.com/wp-content/uploads/2025/09/land-clearing-services-Chatham.jpeg"
-                                alt="Team Working"
+                                src={AboutusPhoto}
                                 className="w-full h-full object-cover"
                             />
                         </div>
