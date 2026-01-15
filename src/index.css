@@ -62,37 +62,78 @@ body {
 }
 
 /* Google Translate Overrides */
-.goog-te-banner-frame.skiptranslate {
+/* Google Translate Overrides */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-banner-frame,
+.skiptranslate iframe,
+body>div[style*="display: none"]+iframe {
   display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  width: 0 !important;
+  pointer-events: none !important;
 }
 
 body {
   top: 0px !important;
 }
 
+/* Hide the "Powered by Google" text */
+.goog-logo-link {
+  display: none !important;
+}
+
 .goog-te-gadget {
   font-family: 'Outfit', sans-serif !important;
   color: white !important;
+  font-size: 0 !important;
+  /* Hide "Powered by Google" text wrapper */
 }
 
+/* Style the dropdown container */
 .goog-te-gadget-simple {
-  background-color: rgba(255, 255, 255, 0.1) !important;
-  border: 1px solid rgba(255, 255, 255, 0.2) !important;
-  padding: 8px !important;
-  border-radius: 8px !important;
+  background-color: rgba(16, 185, 129, 0.2) !important;
+  /* Primary color hint */
+  border: 1px solid rgba(16, 185, 129, 0.5) !important;
+  padding: 8px 12px !important;
+  border-radius: 9999px !important;
   font-size: 14px !important;
   line-height: 20px !important;
-  display: inline-block;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  zoom: 1;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(4px);
 }
 
+.goog-te-gadget-simple:hover {
+  background-color: rgba(16, 185, 129, 0.4) !important;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.3);
+}
+
+/* Style the text inside the dropdown */
 .goog-te-gadget-simple a,
 .goog-te-gadget-simple span {
   color: white !important;
   text-decoration: none !important;
+  font-weight: 500 !important;
+  font-family: 'Outfit', sans-serif !important;
+}
+
+/* Ensure the arrow is white */
+.goog-te-gadget-simple .goog-te-menu-value span {
+  border-left: 1px solid rgba(255, 255, 255, 0.3) !important;
+  padding-left: 8px !important;
 }
 
 .goog-te-gadget-icon {
   display: none !important;
+}
+
+/* Mobile Adjustments */
+#google_translate_element_mobile .goog-te-gadget-simple {
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.05) !important;
 }
