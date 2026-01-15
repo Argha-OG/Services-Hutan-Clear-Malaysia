@@ -3,6 +3,7 @@ import { Menu, X, Phone, TreePine } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import logo from '../../assets/shcm.png';
+import GoogleTranslate from '../common/GoogleTranslate';
 
 export default function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -53,7 +54,8 @@ export default function Navbar() {
                             {link.name}
                         </a>
                     ))}
-                    <div id="google_translate_element" className="mr-4"></div>
+                    <GoogleTranslate id="google_translate_element" />
+                    <div className="mr-4"></div>
                     <a
                         href="https://wa.me/601127866206"
                         target="_blank"
@@ -94,7 +96,9 @@ export default function Navbar() {
                                     {link.name}
                                 </a>
                             ))}
-                            <div id="google_translate_element_mobile" className="py-2"></div>
+                            <div className="py-2 flex justify-center">
+                                <GoogleTranslate id="google_translate_element_mobile" />
+                            </div>
                             <a
                                 href="https://wa.me/601127866206"
                                 target="_blank"
