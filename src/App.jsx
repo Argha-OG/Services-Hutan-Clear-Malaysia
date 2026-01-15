@@ -15,14 +15,12 @@ import WhatsAppButton from './components/common/WhatsAppButton';
 import CursorFollower from './components/ui/CursorFollower';
 import ScrollEffects from './components/ui/ScrollEffects';
 
-import SEO from './components/common/SEO';
-import { replace } from 'react-router-dom';
+
 
 function App() {
   return (
     <div className="bg-[#0a0a0a] min-h-screen text-white selection:bg-primary/30">
       <ScrollEffects>
-        <SEO />
         <CursorFollower />
         <Navbar />
 
@@ -47,3 +45,4 @@ function App() {
 }
 
 export default App;
+
