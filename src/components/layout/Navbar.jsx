@@ -53,6 +53,7 @@ export default function Navbar() {
                             {link.name}
                         </a>
                     ))}
+                    <div id="google_translate_element" className="mr-4"></div>
                     <a
                         href="https://wa.me/601127866206"
                         target="_blank"
@@ -93,6 +94,7 @@ export default function Navbar() {
                                     {link.name}
                                 </a>
                             ))}
+                            <div id="google_translate_element_mobile" className="py-2"></div>
                             <a
                                 href="https://wa.me/601127866206"
                                 target="_blank"
