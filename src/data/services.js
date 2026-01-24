@@ -137,5 +137,42 @@ export const videos = [
         title: "Expert Tree Removal",
         videoId: "nM1B_QdTKW4", // Replace with actual YouTube Short ID
         thumbnail: "https://images.unsplash.com/photo-1587998907224-ebfb40760dc7?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: "5",
+        title: "Expert Tree Removal",
+        videoId: "cRT8ErrURVk", // Replace with actual YouTube Short ID
+        thumbnail: "https://images.unsplash.com/photo-1587998907224-ebfb40760dc7?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: "6",
+        title: "Expert Tree Removal",
+        videoId: "pC7R2B8zYfk", // Replace with actual YouTube Short ID
+        thumbnail: "https://images.unsplash.com/photo-1587998907224-ebfb40760dc7?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: "6",
+        title: "Expert Tree Removal",
+        videoId: "w36Q8Ewcncw", // Replace with actual YouTube Short ID
+        thumbnail: "https://images.unsplash.com/photo-1587998907224-ebfb40760dc7?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: "7",
+        title: "Expert Tree Removal",
+        videoId: "zCRtQfndCkw", // Replace with actual YouTube Short ID
+        thumbnail: "https://images.unsplash.com/photo-1587998907224-ebfb40760dc7?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: "8",
+        title: "Expert Tree Removal",
+        videoId: "PwcLsxQCPAM", // Replace with actual YouTube Short ID
+        thumbnail: "https://images.unsplash.com/photo-1587998907224-ebfb40760dc7?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+        id: "9",
+        title: "Expert Tree Removal",
+        videoId: "PsZ-_tdTQOc", // Replace with actual YouTube Short ID
+        thumbnail: "https://images.unsplash.com/photo-1587998907224-ebfb40760dc7?q=80&w=800&auto=format&fit=crop"
     }
+    
 ];
